@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>X Store - المتجر الإلكتروني</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+            direction: rtl;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            color: #2c3e50;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .product-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+            width: 220px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+        .product-image {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        .product-name {
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+            color: #34495e;
+        }
+        .product-price {
+            color: #27ae60;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        .whatsapp-btn {
+            position: fixed;
+            left: 20px;
+            bottom: 20px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            cursor: pointer;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+            transition: background-color 0.3s ease;
+            z-index: 1000;
+            text-decoration: none;
+        }
+        .whatsapp-btn:hover {
+            background-color: #1ebe57;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>متجر X Store</h1>
+        <p>أفضل المنتجات داخل ماب Grow a Garden في Roblox</p>
+    </header>
+
+    <section class="products">
+        <div class="product-card">
+            <img src="https://i.imgur.com/mnTu3He.jpg" class="product-image" alt="بومة مطبوخة" />
+            <div class="product-name">البومة المطبوخة</div>
+            <div class="product-price">49 ريال</div>
+        </div>
+        <div class="product-card">
+            <img src="https://i.imgur.com/zPYvBvV.jpg" class="product-image" alt="بغبغاء" />
+            <div class="product-name">بغبغاء</div>
+            <div class="product-price">39 ريال</div>
+        </div>
+        <div class="product-card">
+            <img src="https://i.imgur.com/IkN1sLO.jpg" class="product-image" alt="دب العسل" />
+            <div class="product-name">دب العسل</div>
+            <div class="product-price">19 ريال</div>
+        </div>
+        <div class="product-card">
+            <img src="https://i.imgur.com/WtZfpRN.jpg" class="product-image" alt="جرادة" />
+            <div class="product-name">جرادة</div>
+            <div class="product-price">25 ريال</div>
+        </div>
+    </section>
+
+    <a class="whatsapp-btn" href="https://wa.me/966550621322" target="_blank" title="تواصل معنا على واتساب">
+        💬
+    </a>
+
+    <footer>
+        &copy; 2025 X Store. جميع الحقوق محفوظة.
+    </footer>
+</body>
+</html>
